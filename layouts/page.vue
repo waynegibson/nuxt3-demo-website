@@ -1,9 +1,6 @@
-<script lang="ts" setup></script>
-
 <template>
-  <div>
+  <div class="w-full mx-auto">
     <TheHeader />
-    <Hero />
     <main>
       <slot />
     </main>

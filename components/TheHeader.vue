@@ -8,10 +8,10 @@ const hide = ref(false)
       <div class="mx-auto max-w-7xl px-4 sm:px-6">
         <div class="flex items-center justify-between py-6 md:justify-start md:space-x-10">
           <div class="flex justify-start lg:w-0 lg:flex-1">
-            <a href="#">
-              <span class="sr-only">Workflow</span>
+            <NuxtLink to="/">
+              <span class="sr-only">Amce</span>
               <img class="h-8 w-auto sm:h-10" src="https://tailwindui.com/img/logos/workflow-mark.svg?color=indigo&shade=600" alt="">
-            </a>
+            </NuxtLink>
           </div>
           <div class="-my-2 -mr-2 md:hidden">
             <button type="button" class="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" aria-expanded="false">
@@ -133,7 +133,9 @@ const hide = ref(false)
             <NuxtLink to="about" class="text-base font-medium text-gray-500 hover:text-gray-900">
               About
             </NuxtLink>
-            <a href="#" class="text-base font-medium text-gray-500 hover:text-gray-900">Docs</a>
+            <NuxtLink to="contact" class="text-base font-medium text-gray-500 hover:text-gray-900">
+              Contact
+            </NuxtLink>
 
             <div class="relative">
               <!-- Item active: "text-gray-900", Item inactive: "text-gray-500" -->

@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 useHead({
   titleTemplate: (title: string) => {
-    return title ? `${title} | Spacemuis` : 'Spacemuis'
+    return title ? `${title} | Amce` : 'Amce Demo Site'
   },
   viewport: 'width=device-width, initial-scale=1.0, maximum-scale=1.0',
   charset: 'utf-8',
@@ -9,13 +9,15 @@ useHead({
     class: 'h-full font-sans font-normal antialiased text-gray-500',
   },
   meta: [
-    { hid: 'description', name: 'description', content: '' },
+    { hid: 'description', name: 'description', content: 'Demo nuxt 3 website for ci/cd' },
     { hid: 'keywords', property: 'keywords', content: '' },
-    { hid: 'author', property: 'author', content: 'Spacecomx, LLC' },
+    { hid: 'author', property: 'author', content: 'Amce, Inc' },
+    { hid: 'robots', name: 'robots', content: 'noindex' },
+    { hid: 'googlebot', name: 'googlebot', content: 'noindex' },
   ],
   link: [
     { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-    { rel: 'preload', href: '/fonts/Inter-roman.var.woff2?v=3.18', as: 'font', type: 'font/woff2', crossorigin: '' },
+    { rel: 'preload', href: 'fonts/Inter-roman.var.woff2?v=3.18', as: 'font', type: 'font/woff2', crossorigin: '' },
   ],
   bodyAttrs: {
     class: 'bg-white dark:bg-slate-900',
