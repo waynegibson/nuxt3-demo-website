@@ -17,7 +17,7 @@ useHead({
   ],
   link: [
     { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-    { rel: 'preload', href: 'fonts/Inter-roman.var.woff2?v=3.18', as: 'font', type: 'font/woff2', crossorigin: 'anonymous' },
+    { rel: 'preload', as: 'font', crossorigin: '', type: 'font/woff2', href: '/fonts/Inter-roman.var.woff2?v=3.18' },
   ],
   bodyAttrs: {
     class: 'bg-white dark:bg-slate-900',
