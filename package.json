@@ -5,7 +5,8 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "serve": "serve .output/public/",
+    "serve:public": "serve .output/public/",
+    "serve:static": "serve dist/",
     "clean": "rm -rf .nuxt dist .output",
     "lint": "eslint --ext \".ts,.js,.vue\" --ignore-path .eslintignore .",
     "lint:fix": "eslint --ext \".ts,.js,.vue\" --ignore-path .eslintignore . --fix"
